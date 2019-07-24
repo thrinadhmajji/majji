@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="main.css" type="text/css">
+
+</head>
+<body>
+	<div class="logo">
+<img src="logovsp.jpg"  id="logo1" alt="gg.jpg" width="160" height="80">
+</div>
+<div class="logo2">
+<img src="logo2.jpg" id="logo2" alt="gg.jpg" width="160" height="80">
+
+	</div>
+<marquee>MODAMANBA YOUTH</marquee>
+<h2>VILLAGE  SERVICE  PORTAL</h2>
+<h6>JAMMADEVI PETA . V MADUGULA 531027 VIZAG DIST.</h6>
+<p></p>
+
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'London')">Home</button>
+  <button class="tablinks" onclick="openCity(event, 'Paris')">Contact</button>
+  <button class="tablinks" onclick="openCity(event, 'Tokyo')">Services</button>
+  <button class="tablinks" onclick="openCity(event, 'Tokyo')">Our team</button>
+  <button class="tablinks" onclick="openCity(event, 'Tokyo')">About</button>
+</div>
+
+<div id="London" class="tabcontent">
+  <h3>Home</h3>
+  <p></p>
+
+   <div class="content2">
+  	<div class="one">
+
+  		<p>ELECTRICAL</p>
+  		
+  	</div>
+  	<div class="two">
+  		<p>TV CONNECTION</p>
+  	</div>
+
+
+  	<div class="three">
+  		<p>WATER PROBLEM</p>
+  	</div>
+  	<div class="four">
+  		<p>MONEY WITHDRAW</p>
+  	</div>
+
+
+  	<div class="five">
+  		<p>STUDY HELP</p>
+  	</div>
+  	<div class="six">
+  		<p>VILLAGE HELP</p>
+  	</div>
+  </div>
+  <p></p>
+</div>
+  <div class="content">
+  	
+  </div>
+</div>
+
+<div id="Paris" class="tabcontent">
+  <h3>Contact</h3>
+  <p></p> 
+</div>
+
+<div id="Tokyo" class="tabcontent">
+  <h3>Services</h3><br><br>
+  <div class="content2">
+  	<div class="one">
+
+  		<p>ELECTRICAL</p>
+  		
+  	</div>
+  	<div class="two">
+  		<p>TV CONNECTION</p>
+  	</div>
+
+
+  	<div class="three">
+  		<p>WATER PROBLEM</p>
+  	</div>
+  	<div class="four">
+  		<p>MONEY WITHDRAW</p>
+  	</div>
+
+
+  	<div class="five">
+  		<p>STUDY HELP</p>
+  	</div>
+  	<div class="six">
+  		<p>VILLAGE HELP</p>
+  	</div>
+  </div>
+  <p></p>
+</div>
+
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+   
+</body>
+</html> 
